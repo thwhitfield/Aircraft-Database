@@ -1,4 +1,4 @@
-[Link to database](https://github.com/thwhitfield/new_website/aircraft_database
+[Link to database](https://github.com/thwhitfield/new_website/aircraft_database)
 
 ## Welcome to GitHub Pages
 
