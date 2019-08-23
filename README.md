@@ -1,39 +1,13 @@
+# Aircraft Database and Recommendation Engine
+
+## Aircraft Database
 [Link to database](aircraft_database)
 
-## Welcome to GitHub Pages
+This database is intended to be a sortable, filterable, and searchable database of all aircraft designs. While there are several other aircraft databases online, this is to my knowledge the only free database which can be filtered and sorted based on multiple aircraft characteristics. 
 
-You can use the [editor on GitHub](https://github.com/thwhitfield/new_website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The values for the different aircraft characteristics were all scraped off of wikipedia, so there are bound to be some errors in the underlying dataset which carried through into this database.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thwhitfield/new_website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Recommendation Engine
+(This section is still in development) 
+This recommendation engine analyzes the content of aircraft wikipedia pages, along with the characteristics of the aircraft which were scraped and put into the database, to provide recommendations for similar aircraft to a given query. 
