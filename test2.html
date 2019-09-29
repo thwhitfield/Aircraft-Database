@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="autocomplete" style="width:300px;">
+	Enter Aircraft: <input id="myInput" type="text" name="myAircraft" placeholder="Cessna 172">
+</div>
+<br>
+<br>
+<button onclick="displayRecommendations()">Submit</button>
+
+<p id="demo">anything there?</p>
+
+<script>
+
+var dict = new Object();
+var aircraftName = document.getElementById('myInput').value;
+
+dict["Cessna 172"] = ["Cessna 182","Cessna 152","Cessna 206"];
+
+document.getElementById("demo").innerHTML = aircraftName
+
+<!-- function displayRecommendations(): -->
+	<!-- document.getElementById('demo').innerHTML = 'Hello world' -->
+	<!-- return -->
+
+function displayRecommendations() {
+	var aircraftName = document.getElementById('myInput').value;
+	
+	document.getElementById('demo').innerHTML = dict[aircraftName]
+	return
+}
+
+</script>
+
+</body>
+</html>
